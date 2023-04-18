@@ -26,11 +26,11 @@ def get_query(filename: str)->str:
         return f.read()
 
 ##kuucoin
-def contract_active(symbol_name):
+def contract_active():
   contracts = kuucoin_feature.futuresPublic_get_contracts_active()
   contracts = pd.json_normalize(contracts['data'])
-  filter = contracts['symbol'] == symbol_name
-  contracts = contracts[filter]
+  #filter = contracts['symbol'] == symbol_name
+  #contracts = contracts[filter]
   return contracts
 
 def kuucoin_fund_fee_current(symbol_name):
