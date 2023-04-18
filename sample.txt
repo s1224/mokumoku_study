@@ -1,0 +1,9 @@
+           symbol  granularity      timePoint   value  predictedValue
+0  .XBTUSDTMFPI8H     28800000  1681790400000  0.0001          0.0001
+          symbol  granularity      timePoint   value  predictedValue
+0  .XBTUSDMFPI8H     28800000  1681790400000  0.0001        0.001621
+           symbol  granularity      timePoint   value  predictedValue
+0  .ETHUSDTMFPI8H     28800000  1681790400000  0.0001          0.0001
+           symbol  granularity      timePoint   value  predictedValue
+0  .BCHUSDTMFPI8H     28800000  1681790400000  0.0001          0.0001
+^CTraceback (most recent call last):
