@@ -1,0 +1,2 @@
+symbol,symbolname,granularity,timepoint,value,predictedvalue,symbol,nextfundingtime,fundingrate,exit_flag,exchangename,symbol_spot,featureorspot
+.DOTUSDMFPI8H,DOTUSDM,28800000,1683489600000,0.00032,0.000636,,,,,,,
